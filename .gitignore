@@ -1,0 +1,49 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.lo
+*.la
+*.al
+*.pyc
+*.class
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
+*~
+*.bak
+*.swo
+
+# Dependency caches
+node_modules/
+vendor/
+target/
+bin/
+obj/
+dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Configuration files
+.env
+config.local.php
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+
+# Specific to Node.js
+npm-debug.log*
